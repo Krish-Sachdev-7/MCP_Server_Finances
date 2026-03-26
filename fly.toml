@@ -1,0 +1,50 @@
+# EquityMCP Fly.io deployment configuration
+#
+# Prerequisites:
+# 1. fly apps create equity-mcp               (change app name as needed)
+# 2. fly postgres create --name equity-mcp-db --region bom
+# 3. fly redis create --name equity-mcp-cache --region bom
+# 4. fly postgres attach equity-mcp-db         (auto-sets DATABASE_URL)
+# 5. fly secrets set EQUITY_MCP_API_KEYS=<keys> TRANSPORT=http ALLOWED_HOSTS=equity-mcp.fly.dev NODE_ENV=production
+# 6. fly deploy
+
+app = "equity-mcp"
+primary_region = "bom"
+
+[build]
+  dockerfile = "Dockerfile"
+
+[http_service]
+  internal_port = 3000
+  force_https = true
+  auto_stop_machines = "stop"
+  auto_start_machines = true
+  min_machines_running = 1
+
+  [http_service.concurrency]
+    type = "connections"
+    hard_limit = 100
+    soft_limit = 80
+
+[[services]]
+  protocol = "tcp"
+  internal_port = 3000
+
+  [[services.ports]]
+    port = 443
+    handlers = ["tls", "http"]
+
+  [[services.http_checks]]
+    interval = 30000
+    grace_period = "10s"
+    method = "GET"
+    path = "/health"
+    protocol = "http"
+    timeout = 5000
+
+[[vm]]
+  size = "shared-cpu-1x"
+  memory = "512mb"
+  # Single instance to avoid session split (see Risk 5 in SKILL.md).
+  # For multi-instance, implement Redis-backed sessions or sticky LB first.
+  count = 1

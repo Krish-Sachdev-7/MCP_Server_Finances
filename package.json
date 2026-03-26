@@ -1,0 +1,50 @@
+{
+  "name": "equity-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for Indian equity market data — ~7000 companies",
+  "type": "module",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx watch src/index.ts",
+    "start": "node build/index.js",
+    "db:migrate": "tsx src/db/migrate.ts",
+    "seed": "tsx scripts/seed.ts",
+    "ingest:all": "tsx src/ingestion/runner.ts --all",
+    "ingest:companies": "tsx src/ingestion/runner.ts --pipeline=companies",
+    "ingest:financials": "tsx src/ingestion/runner.ts --pipeline=financials",
+    "ingest:prices": "tsx src/ingestion/runner.ts --pipeline=prices",
+    "import:company": "tsx scripts/import-company.ts",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "eslint src/",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.27.1",
+    "dotenv": "^16.4.0",
+    "express": "^4.21.0",
+    "ioredis": "^5.4.0",
+    "nanoid": "^5.0.0",
+    "node-cron": "^3.0.3",
+    "pg": "^8.13.0",
+    "pino": "^9.5.0",
+    "pino-pretty": "^13.0.0",
+    "xlsx": "^0.18.5",
+    "zod": "^3.25.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.0.0",
+    "@types/node-cron": "^3.0.11",
+    "@types/pg": "^8.11.0",
+    "@typescript-eslint/eslint-plugin": "^8.0.0",
+    "@typescript-eslint/parser": "^8.0.0",
+    "eslint": "^9.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0",
+    "vitest": "^2.1.0"
+  }
+}

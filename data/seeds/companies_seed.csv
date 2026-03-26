@@ -1,0 +1,102 @@
+ticker,company_name,isin,bse_code,nse_symbol,sector,industry,market_cap_cr,face_value,exchange
+RELIANCE,Reliance Industries Limited,INE002A01018,500325,RELIANCE,Energy,Oil & Gas - Refining & Marketing,1900000,10,NSE
+TCS,Tata Consultancy Services Limited,INE467B01029,532540,TCS,Information Technology,IT - Software,1500000,1,NSE
+HDFCBANK,HDFC Bank Limited,INE040A01034,500180,HDFCBANK,Financial Services,Banks,1350000,1,NSE
+INFY,Infosys Limited,INE009A01021,500209,INFY,Information Technology,IT - Software,750000,5,NSE
+ICICIBANK,ICICI Bank Limited,INE090A01021,532174,ICICIBANK,Financial Services,Banks,900000,2,NSE
+HINDUNILVR,Hindustan Unilever Limited,INE030A01027,500696,HINDUNILVR,FMCG,FMCG,600000,1,NSE
+ITC,ITC Limited,INE154A01025,500875,ITC,FMCG,Cigarettes & Tobacco Products,550000,1,NSE
+SBIN,State Bank of India,INE062A01020,500112,SBIN,Financial Services,Banks,700000,1,NSE
+BHARTIARTL,Bharti Airtel Limited,INE397D01024,532454,BHARTIARTL,Telecommunication,Telecom Services,850000,5,NSE
+KOTAKBANK,Kotak Mahindra Bank Limited,INE237A01028,500247,KOTAKBANK,Financial Services,Banks,400000,5,NSE
+LT,Larsen & Toubro Limited,INE018A01030,500510,LT,Construction,Engineering - Construction,500000,2,NSE
+HCLTECH,HCL Technologies Limited,INE860A01027,532281,HCLTECH,Information Technology,IT - Software,450000,2,NSE
+ASIANPAINT,Asian Paints Limited,INE021A01026,500820,ASIANPAINT,Consumer Durables,Paints,300000,1,NSE
+MARUTI,Maruti Suzuki India Limited,INE585B01010,532500,MARUTI,Automobile,Automobiles - Passenger Cars,380000,5,NSE
+SUNPHARMA,Sun Pharmaceutical Industries Limited,INE044A01036,524715,SUNPHARMA,Healthcare,Pharmaceuticals,420000,1,NSE
+TATAMOTORS,Tata Motors Limited,INE155A01022,500570,TATAMOTORS,Automobile,Automobiles - Commercial Vehicles,300000,2,NSE
+WIPRO,Wipro Limited,INE075A01022,507685,WIPRO,Information Technology,IT - Software,280000,2,NSE
+TITAN,Titan Company Limited,INE280A01028,500114,TITAN,Consumer Durables,Diamond & Jewellery,320000,1,NSE
+ULTRACEMCO,UltraTech Cement Limited,INE481G01011,532538,ULTRACEMCO,Construction Materials,Cement,310000,10,NSE
+BAJFINANCE,Bajaj Finance Limited,INE296A01024,500034,BAJFINANCE,Financial Services,NBFC,450000,2,NSE
+AXISBANK,Axis Bank Limited,INE238A01034,532215,AXISBANK,Financial Services,Banks,350000,2,NSE
+NESTLEIND,Nestle India Limited,INE239A01016,500790,NESTLEIND,FMCG,FMCG - Foods,240000,10,NSE
+TATASTEEL,Tata Steel Limited,INE081A01012,500470,TATASTEEL,Metals & Mining,Steel,190000,10,NSE
+POWERGRID,Power Grid Corporation of India Ltd,INE752E01010,532898,POWERGRID,Utilities,Power Generation & Distribution,280000,10,NSE
+NTPC,NTPC Limited,INE733E01010,532555,NTPC,Utilities,Power Generation,260000,10,NSE
+ONGC,Oil and Natural Gas Corporation Limited,INE213A01029,500312,ONGC,Energy,Oil Exploration,260000,5,NSE
+JSWSTEEL,JSW Steel Limited,INE019A01038,500228,JSWSTEEL,Metals & Mining,Steel,220000,1,NSE
+M&M,Mahindra & Mahindra Limited,INE101A01026,500520,M&M,Automobile,Automobiles - Tractors & Utility Vehicles,370000,5,NSE
+ADANIENT,Adani Enterprises Limited,INE423A01024,512599,ADANIENT,Diversified,Trading,350000,1,NSE
+ADANIPORTS,Adani Ports and SEZ Limited,INE742F01042,532921,ADANIPORTS,Infrastructure,Ports,290000,2,NSE
+TECHM,Tech Mahindra Limited,INE669C01036,532755,TECHM,Information Technology,IT - Software,180000,5,NSE
+DRREDDY,Dr. Reddy's Laboratories Limited,INE089A01023,500124,DRREDDY,Healthcare,Pharmaceuticals,120000,5,NSE
+CIPLA,Cipla Limited,INE059A01026,500087,CIPLA,Healthcare,Pharmaceuticals,110000,2,NSE
+COALINDIA,Coal India Limited,INE522F01014,533278,COALINDIA,Metals & Mining,Mining - Coal,300000,10,NSE
+BAJAJFINSV,Bajaj Finserv Limited,INE918I01018,532978,BAJAJFINSV,Financial Services,Holding Company,280000,5,NSE
+DIVISLAB,Divi's Laboratories Limited,INE361B01024,532488,DIVISLAB,Healthcare,Pharmaceuticals - API,110000,2,NSE
+GRASIM,Grasim Industries Limited,INE047A01021,500300,GRASIM,Construction Materials,Cement & Diversified,190000,2,NSE
+BRITANNIA,Britannia Industries Limited,INE216A01030,500825,BRITANNIA,FMCG,FMCG - Foods,120000,1,NSE
+HINDALCO,Hindalco Industries Limited,INE038A01020,500440,HINDALCO,Metals & Mining,Aluminium,150000,1,NSE
+BPCL,Bharat Petroleum Corporation Limited,INE029A01011,500547,BPCL,Energy,Oil & Gas - Refining & Marketing,140000,10,NSE
+EICHERMOT,Eicher Motors Limited,INE066A01021,505200,EICHERMOT,Automobile,Automobiles - Two Wheelers,130000,1,NSE
+HEROMOTOCO,Hero MotoCorp Limited,INE158A01026,500182,HEROMOTOCO,Automobile,Automobiles - Two Wheelers,100000,2,NSE
+DABUR,Dabur India Limited,INE016A01026,500096,DABUR,FMCG,Personal Care,100000,1,NSE
+PIDILITIND,Pidilite Industries Limited,INE318A01026,500331,PIDILITIND,Chemicals,Specialty Chemicals,150000,1,NSE
+HAVELLS,Havells India Limited,INE176B01034,517354,HAVELLS,Consumer Durables,Electrical Equipment,110000,1,NSE
+GODREJCP,Godrej Consumer Products Limited,INE102D01028,532424,GODREJCP,FMCG,Personal Care,130000,1,NSE
+SIEMENS,Siemens Limited,INE003A01024,500550,SIEMENS,Capital Goods,Heavy Electrical Equipment,180000,2,NSE
+INDUSINDBK,IndusInd Bank Limited,INE095A01012,532187,INDUSINDBK,Financial Services,Banks,90000,10,NSE
+SBILIFE,SBI Life Insurance Company Limited,INE123W01016,540719,SBILIFE,Financial Services,Life Insurance,160000,10,NSE
+HDFCLIFE,HDFC Life Insurance Company Limited,INE795G01014,540777,HDFCLIFE,Financial Services,Life Insurance,150000,10,NSE
+TATACONSUM,Tata Consumer Products Limited,INE192A01025,500800,TATACONSUM,FMCG,FMCG - Foods,110000,1,NSE
+APOLLOHOSP,Apollo Hospitals Enterprise Limited,INE437A01024,508869,APOLLOHOSP,Healthcare,Healthcare Services,90000,5,NSE
+BAJAJ-AUTO,Bajaj Auto Limited,INE917I01010,532977,BAJAJ-AUTO,Automobile,Automobiles - Two Wheelers,190000,10,NSE
+SHREECEM,Shree Cement Limited,INE070A01015,500387,SHREECEM,Construction Materials,Cement,90000,10,NSE
+AMBUJACEM,Ambuja Cements Limited,INE079A01024,500425,AMBUJACEM,Construction Materials,Cement,80000,2,NSE
+DLF,DLF Limited,INE271C01023,532868,DLF,Real Estate,Real Estate Development,110000,2,NSE
+TRENT,Trent Limited,INE849A01020,500251,TRENT,Retail,Retail - Apparel,200000,1,NSE
+ZOMATO,Zomato Limited,INE758T01015,543320,ZOMATO,Consumer Services,Internet & Catalogue Retail,190000,1,NSE
+VEDL,Vedanta Limited,INE205A01025,500295,VEDL,Metals & Mining,Mining - Diversified,180000,1,NSE
+IOC,Indian Oil Corporation Limited,INE242A01010,530965,IOC,Energy,Oil & Gas - Refining & Marketing,220000,10,NSE
+BERGEPAINT,Berger Paints India Limited,INE463A01038,509480,BERGEPAINT,Consumer Durables,Paints,70000,1,NSE
+TORNTPHARM,Torrent Pharmaceuticals Limited,INE685A01028,500420,TORNTPHARM,Healthcare,Pharmaceuticals,80000,5,NSE
+MCDOWELL-N,United Spirits Limited,INE854D01024,532432,MCDOWELL-N,FMCG,Beverages - Alcoholic,85000,2,NSE
+PEL,Piramal Enterprises Limited,INE140A01024,500302,PEL,Financial Services,Diversified Financials,45000,2,NSE
+BANKBARODA,Bank of Baroda,INE028A01039,532134,BANKBARODA,Financial Services,Banks,130000,2,NSE
+CANBK,Canara Bank,INE476A01014,532483,CANBK,Financial Services,Banks,110000,10,NSE
+PNB,Punjab National Bank,INE160A01022,532461,PNB,Financial Services,Banks,120000,2,NSE
+LICHSGFIN,LIC Housing Finance Limited,INE115A01026,500253,LICHSGFIN,Financial Services,Housing Finance,40000,2,NSE
+MUTHOOTFIN,Muthoot Finance Limited,INE414G01012,533398,MUTHOOTFIN,Financial Services,NBFC - Gold Loans,70000,10,NSE
+SAIL,Steel Authority of India Limited,INE114A01011,500113,SAIL,Metals & Mining,Steel,55000,10,NSE
+NMDC,NMDC Limited,INE584A01023,526371,NMDC,Metals & Mining,Mining - Iron Ore,60000,1,NSE
+TATAPOWER,Tata Power Company Limited,INE245A01021,500400,TATAPOWER,Utilities,Power Generation,130000,1,NSE
+ADANIGREEN,Adani Green Energy Limited,INE364U01010,541450,ADANIGREEN,Utilities,Renewable Energy,250000,10,NSE
+IRCTC,Indian Railway Catering and Tourism Corp,INE335Y01020,542830,IRCTC,Consumer Services,Travel & Tourism,70000,2,NSE
+HAL,Hindustan Aeronautics Limited,INE066F01020,541154,HAL,Defence,Aerospace & Defence,310000,10,NSE
+BEL,Bharat Electronics Limited,INE263A01024,500049,BEL,Defence,Defence Electronics,200000,1,NSE
+POLYCAB,Polycab India Limited,INE455K01017,542652,POLYCAB,Consumer Durables,Electrical Equipment,90000,10,NSE
+INDIGO,InterGlobe Aviation Limited,INE646L01027,539448,INDIGO,Consumer Services,Airlines,100000,10,NSE
+PERSISTENT,Persistent Systems Limited,INE262H01013,533179,PERSISTENT,Information Technology,IT - Software,65000,5,NSE
+LTIM,LTIMindtree Limited,INE214T01019,540005,LTIM,Information Technology,IT - Software,170000,1,NSE
+MAXHEALTH,Max Healthcare Institute Limited,INE027H01010,543220,MAXHEALTH,Healthcare,Healthcare Services,80000,10,NSE
+PIIND,PI Industries Limited,INE603J01030,523642,PIIND,Chemicals,Agrochemicals,55000,1,NSE
+ATUL,Atul Limited,INE100A01010,500027,ATUL,Chemicals,Specialty Chemicals,25000,10,NSE
+COFORGE,Coforge Limited,INE591G01017,532541,COFORGE,Information Technology,IT - Software,45000,10,NSE
+TATAELXSI,Tata Elxsi Limited,INE670A01012,500408,TATAELXSI,Information Technology,IT - Software,40000,10,NSE
+SUNTV,Sun TV Network Limited,INE424H01027,532733,SUNTV,Media & Entertainment,Broadcasting,30000,5,NSE
+PAGEIND,Page Industries Limited,INE761H01022,532827,PAGEIND,Textile,Garments & Apparel,50000,5,NSE
+AUROPHARMA,Aurobindo Pharma Limited,INE406A01037,524804,AUROPHARMA,Healthcare,Pharmaceuticals,65000,1,NSE
+LALPATHLAB,Dr. Lal PathLabs Limited,INE600L01024,539524,LALPATHLAB,Healthcare,Diagnostics,25000,10,NSE
+METROPOLIS,Metropolis Healthcare Limited,INE112L01020,542650,METROPOLIS,Healthcare,Diagnostics,18000,2,NSE
+DEEPAKNTR,Deepak Nitrite Limited,INE288B01029,506401,DEEPAKNTR,Chemicals,Commodity Chemicals,30000,2,NSE
+NAVINFLUOR,Navin Fluorine International Limited,INE048G01026,532504,NAVINFLUOR,Chemicals,Specialty Chemicals,20000,2,NSE
+DIXON,Dixon Technologies (India) Limited,INE935N01020,540699,DIXON,Consumer Durables,Electronics Manufacturing,55000,2,NSE
+HAPPSTMNDS,Happiest Minds Technologies Limited,INE419U01012,543227,HAPPSTMNDS,Information Technology,IT - Software,12000,2,NSE
+DMART,Avenue Supermarts Limited,INE192R01011,540376,DMART,Retail,Retail - Supermarkets,300000,10,NSE
+HONAUT,Honeywell Automation India Limited,INE671A01010,517174,HONAUT,Capital Goods,Industrial Automation,55000,10,NSE
+MPHASIS,MphasiS Limited,INE356A01018,526299,MPHASIS,Information Technology,IT - Software,50000,10,NSE
+CROMPTON,Crompton Greaves Consumer Electricals,INE299U01018,539876,CROMPTON,Consumer Durables,Electrical Equipment,25000,2,NSE
+VOLTAS,Voltas Limited,INE226A01021,500575,VOLTAS,Consumer Durables,Air Conditioning,35000,1,NSE
+IDFCFIRSTB,IDFC First Bank Limited,INE092T01019,539437,IDFCFIRSTB,Financial Services,Banks,55000,10,NSE
+FEDERALBNK,Federal Bank Limited,INE171A01029,500469,FEDERALBNK,Financial Services,Banks,45000,2,NSE

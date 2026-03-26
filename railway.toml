@@ -1,0 +1,24 @@
+# EquityMCP Railway deployment configuration
+#
+# Prerequisites:
+# 1. Create a Railway project at https://railway.app
+# 2. Add a PostgreSQL plugin from the Railway dashboard
+# 3. Add a Redis plugin from the Railway dashboard
+# 4. Railway auto-injects DATABASE_URL and REDIS_URL env vars from plugins
+# 5. Set these env vars manually in the Railway dashboard:
+#    - TRANSPORT=http
+#    - EQUITY_MCP_API_KEYS=<comma-separated API keys>
+#    - ALLOWED_HOSTS=<your-app>.up.railway.app
+#    - NODE_ENV=production
+# 6. Deploy with: railway up
+
+[build]
+builder = "nixpacks"
+buildCommand = "npm ci && npm run build"
+
+[deploy]
+startCommand = "node build/index.js"
+healthcheckPath = "/health"
+healthcheckTimeout = 30
+restartPolicyType = "on-failure"
+restartPolicyMaxRetries = 5
